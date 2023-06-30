@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ff8542;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+.simple-todos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 5px;
+}
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 32px;
+}
+.todos-list {
+  list-style-type: none;
+  padding: 0px;
+}
